@@ -1,0 +1,59 @@
+1)PDW
+
+2)CAT
+
+3)diego_e_silva@SN-358729 MINGW64 ~/Desktop
+$ mkdir aula_TI
+
+diego_e_silva@SN-358729 MINGW64 ~/Desktop
+$ mkdir shell
+
+diego_e_silva@SN-358729 MINGW64 ~/Desktop
+$ mkdir seguranca_informacao
+
+4)diego_e_silva@SN-358729 MINGW64 ~/Desktop/aula_TI
+$ mkdir shell
+
+diego_e_silva@SN-358729 MINGW64 ~/Desktop/aula_TI
+$ mkdir seguranca_informacao
+
+diego_e_silva@SN-358729 MINGW64 ~/Desktop/aula_TI
+$ ls
+seguranca_informacao/  shell/
+
+
+
+5)diego_e_silva@SN-358729 MINGW64 ~/Desktop/aula_TI/shell
+$ echo "mkdir,touch,mv,cat,echo,sort,history,clear">>comandos
+
+diego_e_silva@SN-358729 MINGW64 ~/Desktop/aula_TI/shell
+$ ls
+comandos
+
+diego_e_silva@SN-358729 MINGW64 ~/Desktop/aula_TI/seguranca_informacao
+$ echo "Confidencialidade:é o que garante o acesso das informacoes apenas ás pessoas autorizadas,Integridade:é o que garante a veracidade das informacoes,Disponibilidade:é o que garante que os dados e sistemas estejam disponiveis para pessoas autorizadas no momento em que se torna necessario,Autencidade:é o que garante a verdadeira autoria pela informacao">>principios
+
+diego_e_silva@SN-358729 MINGW64 ~/Desktop/aula_TI/seguranca_informacao
+$ ls
+principios
+
+7)
+
+
+8)diego_e_silva@SN-358729 MINGW64 ~/Desktop/aula_TI/seguranca_informacao
+$ mv ~/Desktop/aula_TI/seguranca_informacao ~
+
+diego_e_silva@SN-358729 MINGW64 ~/Desktop/aula_TI/seguranca_informacao
+$ cd ~
+
+diego_e_silva@SN-358729 MINGW64 ~
+$ ls
+'3D Objects'/              Desktop/                 Modelos@                                                                                       Recent@              ntuser.dat.LOG2
+'Ambiente de Impressão'@   Documents/               Music/                                                                                        'Saved Games'/        ntuser.ini
+'Ambiente de Rede'@        Downloads/               NTUSER.DAT                                                                                     Searches/            seguranca_informacao/
+ AppData/                  Favorites/               NTUSER.DAT{c49ab7c1-7476-11ec-adcb-d09466b8b010}.TM.blf                                        SendTo@              teste2.txt
+'Configurações Locais'@    IntelGraphicsProfiles/   NTUSER.DAT{c49ab7c1-7476-11ec-adcb-d09466b8b010}.TMContainer00000000000000000001.regtrans-ms   Videos/
+ Contacts/                 Links/                   NTUSER.DAT{c49ab7c1-7476-11ec-adcb-d09466b8b010}.TMContainer00000000000000000002.regtrans-ms   aluno/
+ Cookies@                 'Menu Iniciar'@           OneDrive/                                                                                      eclipse-workspace/
+'Dados de Aplicativos'@   'Meus Documentos'@        Pictures/                                                                                      ntuser.dat.LOG1
+
