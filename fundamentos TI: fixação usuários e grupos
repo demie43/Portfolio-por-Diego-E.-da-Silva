@@ -1,0 +1,142 @@
+
+ 22  cat /etc/passwd > ex_usuarios.txt
+   23  cat ex_usuarios.txt
+   24  cat /tc/group
+   25  cat /etc/group
+   26  cat /etc/group > ex_grupos.txt
+   27  cat ex_grupos.txt
+   28  diego@diego-VirtualBox:~$ cat /etc/passwd
+   29  root:x:0:0:root:/root:/bin/bash
+   30  daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+   31  bin:x:2:2:bin:/bin:/usr/sbin/nologin
+   32  sys:x:3:3:sys:/dev:/usr/sbin/nologin
+   33  sync:x:4:65534:sync:/bin:/bin/sync
+   34  games:x:5:60:games:/usr/games:/usr/sbin/nologin
+   35  man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+   36  lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+   37  mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+   38  news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+   39  uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+   40  proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+   41  www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+   42  backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+   43  list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+   44  irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+   45  history
+sudo adduser
+[sudo] senha para diego:
+adduser: Somente um ou dois nomes permitidos.
+diego@diego-VirtualBox:~$ sudo adduser harry potter
+adduser: O usuário 'harry' não existe.
+diego@diego-VirtualBox:~$ sudo adduser harry
+Adicionando o usuário `harry' ...
+Adicionando novo grupo 'harry' (1003) ...
+Adicionando novo usuário `harry' (1003) ao grupo `harry' ...
+Criando diretório pessoal `/home/harry' ...
+Copiando arquivos de '/etc/skel' ...
+Nova senha:
+Redigite a nova senha:
+passwd: senha atualizada com sucesso
+Modificando as informações de usuário para harry
+Informe o novo valor ou pressione ENTER para aceitar o padrão
+    Nome Completo []: harry potter
+    Número da Sala []: ooo
+    Fone de Trabalho []: 000
+    Fone Residencial []: 0000
+    Outro []: 000
+A informação está correta? [S/n] s
+diego@diego-VirtualBox:~$ sudo adduser hermione
+Adicionando o usuário `hermione' ...
+Adicionando novo grupo 'hermione' (1004) ...
+Adicionando novo usuário `hermione' (1004) ao grupo `hermione' ...
+Criando diretório pessoal `/home/hermione' ...
+Copiando arquivos de '/etc/skel' ...
+Nova senha:
+Redigite a nova senha:
+passwd: senha atualizada com sucesso
+Modificando as informações de usuário para hermione
+Informe o novo valor ou pressione ENTER para aceitar o padrão
+    Nome Completo []: hermione
+    Número da Sala []: 0000
+    Fone de Trabalho []: 0000
+    Fone Residencial []: 0000
+    Outro []: 000
+A informação está correta? [S/n] s
+diego@diego-VirtualBox:~$ sudo adduser tonks
+Adicionando o usuário `tonks' ...
+Adicionando novo grupo 'tonks' (1006) ...
+Adicionando novo usuário `tonks' (1005) ao grupo `tonks' ...
+Criando diretório pessoal `/home/tonks' ...
+Copiando arquivos de '/etc/skel' ...
+Nova senha:
+Redigite a nova senha:
+passwd: senha atualizada com sucesso
+Modificando as informações de usuário para tonks
+Informe o novo valor ou pressione ENTER para aceitar o padrão
+    Nome Completo []: tonks
+    Número da Sala []: -0000
+    Fone de Trabalho []: 0000
+    Fone Residencial []: 0000
+    Outro []: 0000
+A informação está correta? [S/n] s
+diego@diego-VirtualBox:~$ sudo adduser sewerus
+Adicionando o usuário `sewerus' ...
+Adicionando novo grupo 'sewerus' (1007) ...
+Adicionando novo usuário `sewerus' (1006) ao grupo `sewerus' ...
+Criando diretório pessoal `/home/sewerus' ...
+Copiando arquivos de '/etc/skel' ...
+Nova senha:
+Redigite a nova senha:
+passwd: senha atualizada com sucesso
+Modificando as informações de usuário para sewerus
+Informe o novo valor ou pressione ENTER para aceitar o padrão
+    Nome Completo []: sewerus
+    Número da Sala []: 0000
+    Fone de Trabalho []: 000
+    Fone Residencial []: 0
+    Outro []:
+A informação está correta? [S/n] s
+diego@diego-VirtualBox:~$ sudo adduser draco_malfoy
+Adicionando o usuário `draco_malfoy' ...
+Adicionando novo grupo 'draco_malfoy' (1008) ...
+Adicionando novo usuário `draco_malfoy' (1007) ao grupo `draco_malfoy' ...
+Criando diretório pessoal `/home/draco_malfoy' ...
+Copiando arquivos de '/etc/skel' ...
+Nova senha:
+Redigite a nova senha:
+passwd: senha atualizada com sucesso
+Modificando as informações de usuário para draco_malfoy
+Informe o novo valor ou pressione ENTER para aceitar o padrão
+    Nome Completo []: draco
+    Número da Sala []:
+    Fone de Trabalho []:
+    Fone Residencial []:
+    Outro []:
+A informação está correta? [S/n]
+diego@diego-VirtualBox:~$ cedrico
+cedrico: comando não encontrado
+diego@diego-VirtualBox:~$ sudo adduser cedrico
+Adicionando o usuário `cedrico' ...
+Adicionando novo grupo 'cedrico' (1009) ...
+Adicionando novo usuário `cedrico' (1008) ao grupo `cedrico' ...
+Criando diretório pessoal `/home/cedrico' ...
+Copiando arquivos de '/etc/skel' ...
+Nova senha:
+Redigite a nova senha:
+passwd: senha atualizada com sucesso
+Modificando as informações de usuário para cedrico
+Informe o novo valor ou pressione ENTER para aceitar o padrão
+    Nome Completo []:
+    Número da Sala []:
+    Fone de Trabalho []:
+    Fone Residencial []:
+    Outro []:
+A informação está correta? [S/n]
+diego@diego-VirtualBox:~$  ls
+'Área de Trabalho'   ex_grupos.txt 	Modelos  	Público
+ Documentos      	ex_usuarios.txt   Música   	Vídeos
+ Downloads       	Imagens       	música.txt
+diego@diego-VirtualBox:~$ sudo adduser
+
+
+
